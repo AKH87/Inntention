@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/txtMsg1"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="First Activity!" />
+
+    <Button
+        android:layout_marginTop="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/txtMsg1"
+        android:id="@+id/btnLaunchWeb"
+        android:onClick="launchWeb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Launch Web"/>
+
+    <Button
+        android:layout_marginTop="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/btnLaunchWeb"
+        android:id="@+id/btnLaunchDialer"
+        android:onClick="launchDialer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Launch Dialer"/>
+
+    <Button
+        android:layout_marginTop="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/btnLaunchDialer"
+        android:id="@+id/btnLaunchSecondActivity"
+        android:onClick="launchActivitySecond"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Launch Activity Second"/>
+
+
+
+</RelativeLayout>

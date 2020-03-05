@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_centerHorizontal="true"
+        android:id="@+id/txtMsg2"
+        android:text="Second Activity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:textSize="20sp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="50dp"
+        android:layout_below="@id/txtMsg2"
+        android:text="Name: "
+        android:id="@+id/txtName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:textSize="20sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:layout_toRightOf="@id/txtName"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/editName"/>
+
+    <Button
+        android:onClick="sendBackResult"
+        android:textSize="20sp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/editName"
+        android:text="Send Back"
+        android:id="@+id/btnSendBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</RelativeLayout>
